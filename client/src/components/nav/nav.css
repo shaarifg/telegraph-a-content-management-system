@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #001122;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: .6rem 0;
+
+}
+.logo{
+    display: flex;
+    font-size: 1.6rem;
+    gap: .6rem;
+    height: inherit;
+}
+
+
+.link_item{
+    text-decoration: none;
+    color: inherit;
+}
+ul>li:last-child{
+    border: 2px solid white;
+    border-radius: 5px;
+}

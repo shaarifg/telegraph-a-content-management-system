@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  font-family: 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* General Styles */
+
+ul{
+  list-style: none;
+  display: flex;
+}
+ul>li{
+  padding-inline:1rem ;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container{
+  width: 100%;
+  max-width: 1248px;
+  margin-inline: auto;
+}
